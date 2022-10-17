@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar Preloader in Website using CSS, Vanilla Javascript and GSAP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body data-barba="wrapper">
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <main data-barba="container" data-barba-namespace="home">
+    <header>
+        <nav id="nav-bar">
+            <ul id="menu">
+                <li><a href="/pages/tareas.html">Lista de tareas</a></li>
+                <li><a href="/pages/game.html">Para entretenerse</a></li>
+            </ul>
+        </nav>
+    </header>
+    </main>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

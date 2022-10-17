@@ -1,0 +1,236 @@
+/* Css Menu Principal */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+body{
+    background-color: beige;
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+#nav-bar{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#menu li{
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #800080;
+    display: block;
+    padding: 20px;
+}
+a:hover{
+    background-color: #111;
+}
+.page2{
+    background-color: #111;
+}
+ul.transition {
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    pointer-events: none;
+}
+ul.transition li {
+    transform: scaleY(0);
+    background: #111;
+    width: 20%;
+}
+
+
+
+
+/* Ahorcado */
+.container-ahorcado{
+    text-align: center;
+    font-size: 1em;
+    background: rgba(255, 255, 255, .7) ;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+.container-ahorcado h1{
+    font-size: 2em;
+    margin: 10px auto;
+    color: #111;
+}
+#jugar{
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    background: #800080;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#jugar:hover{
+    box-shadow: 0 0 10px 2px #500070;
+}
+#letras{
+    padding: 20px;
+    background: #800080;
+    margin: 20px ;
+}
+#letras button{
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+#palabra_adivinar{
+    height: 3em;
+}
+#palabra_adivinar span{
+    font-size: 2em;
+    border-bottom: 2px solid #111;
+    width: 30px;
+    text-align: center;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#letras{
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+#letras button{
+    padding: 0.6em;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#stickman{
+    border: 2px solid #800080;
+    width: 400px;
+    height: 300px;
+}
+
+/* CSS Lista de tareas */
+
+.contenedor-tareas {
+    background: #fff;
+    overflow: hidden;
+    max-width: 100%;
+    align-items: center;
+}
+.header-tareas {
+    background: #512da8;
+    color: #d1c4e9;
+    text-align: center;
+    padding: 5px 5px;
+}
+.formulario {
+    background: #673ab7;
+    padding: 10px 10px;    
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control input {
+    border: none;
+    background-color: #f0f0f0f1;
+    display: block;
+    font-family: inherit;
+    font-size:16px;
+    padding: 12px;
+    width: 100%;
+}
+.form-control, input:focus {
+    outline: none;
+}
+.formulario button {
+    background: #800080;
+    border: 1px solid #500070;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+section {
+    margin-top: 30px;
+}
+#buscar {
+    border: none;
+    border-radius: 4px;
+    background: #512da8;
+    color: #500070;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px;
+    width: 35%;
+}
+#buscar:focus {
+    outline: none;
+}
+.lista{
+    width: 100%;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 15px 0;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
+}
+.lista li {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: inherit;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.borrar {
+    cursor:pointer;
+}
+
+.textFiltrado {
+    display: none !important;    
+}
+
+.fa-minus-circle {
+    padding-top: 5px;
+    color:#f71e35;
+    font-size: 20px;
+} 
+.fa-plus {
+    color:beige;
+    font-size: large;
+}
